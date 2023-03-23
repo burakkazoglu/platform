@@ -30,7 +30,7 @@ server {
     root /usr/share/nginx/html;
     index index.html index.htm;
   }
-
+ 
   location /health {
     access_log off;
     return 200 "Successful Update!\n";
